@@ -57,7 +57,9 @@ def main():
         if url == d:
             try:
                 # Open URL in a new tab
-                webbrowser.open(u, new=2)
+                did_open = webbrowser.open(u, new=2)
+                if not did_open:
+                    print(u)
             except Exception as error:
                 # If webbrowser cannot open the URL just print it.
                 print(u)

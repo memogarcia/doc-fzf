@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -16,14 +16,14 @@ install_requires = [
 
 setup(
     name = "doc-fzf",
-    version = "0.0.4",
+    version = "0.0.5",
     author = "Guillermo Garcia",
     author_email = "memogarcia@protonmail.com",
     description = "Fuzzy Search documentation from the CLI",
     license = "WTFPL",
     keywords = "documentation fzf fuzzy search",
     url = "https://gitlab.com/memogarcia/doc-fzf",
-    packages=['doc_fzf'],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'doc-fzf = doc_fzf.main:main',
