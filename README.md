@@ -19,18 +19,18 @@ Verify your installation:
 
     doc-fzf -h
 
-    ```bash
-    usage: doc-fzf.py [-h] [-q QUERY] module_name
+```bash
+usage: doc-fzf.py [-h] [-q QUERY] module_name
 
-    doc-fzf.
+doc-fzf.
 
-    positional arguments:
-    module_name  Name of the module to search
+positional arguments:
+module_name  Name of the module to search
 
-    optional arguments:
-    -h, --help   show this help message and exit
-    -q QUERY     Query the docs
-    ```
+optional arguments:
+-h, --help   show this help message and exit
+-q QUERY     Query the docs
+```
 
 ## Extending Doc-FZF
 
