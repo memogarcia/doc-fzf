@@ -2,6 +2,8 @@
 
 Fuzzy Search documentation from the CLI
 
+See it in action here [https://terminalizer.com/view/2c3935cf1418](https://terminalizer.com/view/2c3935cf1418)
+
 **Disclaimer** This tool was built to learn `FZF` capabilities. Feel free to use it or extend it.
 
 ## Usage
@@ -17,18 +19,18 @@ Verify your installation:
 
     doc-fzf -h
 
-```bash
-usage: doc-fzf.py [-h] [-q QUERY] module_name
+    ```bash
+    usage: doc-fzf.py [-h] [-q QUERY] module_name
 
-doc-fzf.
+    doc-fzf.
 
-positional arguments:
-  module_name  Name of the module to search
+    positional arguments:
+    module_name  Name of the module to search
 
-optional arguments:
-  -h, --help   show this help message and exit
-  -q QUERY     Query the docs
-```
+    optional arguments:
+    -h, --help   show this help message and exit
+    -q QUERY     Query the docs
+    ```
 
 ## Extending Doc-FZF
 
@@ -59,8 +61,15 @@ class Scrapper(FZFDoc):
             yield (doc.url, doc.description)
 ```
 
+## Road Map
+
+* [x] Module definition
+* [x] FZFDoc base class
+* [x] File system cache layer
+* [ ] Load dynamic modules
+
 ## References
 
-* [Doc-FZF: Modular CLI Documentation Fuzzy Finder](https://gitlab.com/memogarcia/doc-fzf)
+* [Doc-FZF: Modular CLI Documentation Fuzzy Finder](https://https://memogarcia.mx/posts/doc-fzf)
 * [fzf, A command-line fuzzy finder](https://github.com/junegunn/fzf)
 * [iterfzf, Pythonic interface to fzf, a CLI fuzzy finder](https://github.com/dahlia/iterfzf)

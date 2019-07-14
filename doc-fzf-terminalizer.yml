@@ -1,0 +1,353 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/memo/src/doc-fzf
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 166
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 18
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 409
+    content: "\e]0;memo@matebook:~/src/doc-fzf\e\\\e]7;file://matebook/home/memo/src/doc-fzf\e\\\e]0;memo@matebook: ~/src/doc-fzf\a\e[01;32mmemo@matebook\e[00m:\e[01;34m~/src/doc-fzf\e[00m$ "
+  - delay: 853
+    content: d
+  - delay: 105
+    content: o
+  - delay: 163
+    content: c
+  - delay: 114
+    content: '-'
+  - delay: 550
+    content: f
+  - delay: 163
+    content: z
+  - delay: 60
+    content: f
+  - delay: 576
+    content: ' '
+  - delay: 258
+    content: a
+  - delay: 188
+    content: 'n'
+  - delay: 115
+    content: s
+  - delay: 33
+    content: i
+  - delay: 241
+    content: b
+  - delay: 235
+    content: l
+  - delay: 122
+    content: e
+  - delay: 376
+    content: "\r\n"
+  - delay: 654
+    content: "\e[?1049h\e[?1000h\e[17A\e[G\e[K\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1m\e[m\r\e[2C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m0/0\e[m\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m0/707\e[m\e[1B\r\e[2C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m707/707\e[m\e[16A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_config_rollback - Provides rollback and rollback preview functionality (config:ImportP)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_bd_to_l3out - Bind Bridge Domain to L3 Out (fv:RsBDToOut)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_bd_subnet - Manage Subnets (fv:Subnet)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_bd - Manage Bridge Domains (BD) objects (fv:BD)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_ap - Manage top level Application Profile (AP) objects (fv:Ap)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aep_to_domain - Bind AEPs to Physical or Virtual Domains (infra:RsDomP)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aep - Manage attachable Access Entity Profile (AEP) objects (infra:AttEntityP, infra:ProvAcc)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_access_sub_port_block_to_access_port - Manage sub port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:SubPortBlk)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_access_port_to_interface_policy_leaf_profile - Manage Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:RsAccBaseGrp, infra:PortB..\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_access_port_block_to_access_port - Manage port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:PortBlk)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aaa_user_certificate - Manage AAA user certificates (aaa:UserCert)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aaa_user - Manage AAA users (aaa:User)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;ma10_virtual_server - Manage A10 Networks AX/SoftAX/Thunder/vThunder devices\\xe2\\x80\\x99 virtual servers\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;ma10_service_group - Manage A10 Networks AX/SoftAX/Thunder/vThunder devices\\xe2\\x80\\x99 service groups\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;ma10_server_axapi3 - Manage A10 Networks AX/SoftAX/Thunder/vThunder devices\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236ma10_server - Manage A10 Networks AX/SoftAX/Thunder/vThunder devices\\xe2\\x80\\x99 server object\e[m\e[2B\r\e[2C\r\e[2C"
+  - delay: 10
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m707/2832\e[m\e[1B\r\e[2C"
+  - delay: 30
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m2832/2832\e[m\e[1B\r\e[2C"
+  - delay: 140
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m2832/2832\e[m\e[1B\r\e[2C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m2832/2832\e[m\e[1B\r\e[2C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m2832/2832\e[m\e[1B\r\e[2C"
+  - delay: 155
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1my\e[m\r\e[3C"
+  - delay: 8
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m837/2832\e[m\e[16A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_mcp - Manage MCP interface policies (mcp:IfPol)\e[m\e[;m                       \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_lldp - Manage LLDP interface policies (lldp:IfPol)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_leaf_profile - Manage fabric interface policy leaf profiles (infra:AccPortP)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_leaf_policy_group - Manage fabric interface policy leaf policy groups (infra:AccBndlGrp, infra:AccPortGrp)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_l2 - Manage Layer 2 interface policies (l2:IfPol)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_fc - Manage Fibre Channel interface policies (fc:IfPol)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_firmware_polic\e[m\e[;38;5;108my\e[m\e[;m - This creates a firmware policy\e[m\e[;m                                             \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_filter_entr\e[m\e[;38;5;108my\e[m\e[;m - Manage filter entries (vz:Entry)\e[m\e[;m                                                                                                           \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_epg_monitoring_polic\e[m\e[;38;5;108my\e[m\e[;m - Manage monitoring policies (mon:EPGPol)\e[m\e[;m                                                                                                \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_domain - Manage ph\e[m\e[;38;5;108my\e[m\e[;msical, virtual, bridged, routed or FC domain profiles (phys:DomP, vmm:DomP, l2ext:DomP, l3ext:DomP, fc:DomP)\e[m\e[;m                \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_config_rollback - Provides rollback and rollback preview functionalit\e[m\e[;38;5;108my\e[m\e[;m (config:ImportP)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aep_to_domain - Bind AEPs to Ph\e[m\e[;38;5;108my\e[m\e[;msical or Virtual Domains (infra:RsDomP)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_aep - Manage attachable Access Entit\e[m\e[;38;5;108my\e[m\e[;m Profile (AEP) objects (infra:AttEntityP, infra:ProvAcc)\e[m\e[;m      \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_access_sub_port_block_to_access_port - Manage sub port blocks of Fabric interface polic\e[m\e[;38;5;108my\e[m\e[;m leaf profile interface selectors (infra:HPortS, infra:SubPortBlk)\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maci_access_port_to_interface_polic\e[m\e[;38;5;108my\e[m\e[;m_leaf_profile - Manage Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:RsAccBaseGrp, infra:PortB..\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236maci_access_port_block_to_access_port - Manage port blocks of Fabric interface polic\e[m\e[;1;38;5;151;48;5;236my\e[m\e[;1;38;5;254;48;5;236m leaf profile interface selectors (infra:HPortS, infra:PortBlk)\e[m\e[2B\r\e[3C"
+  - delay: 37
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m837/2832\e[m\e[1B\r\e[3C"
+  - delay: 156
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1myu\e[m\r\e[4C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[16A\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108my\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;mm_repository - Add or remove YUM repositories\e[m\e[;m                                                                                                                    \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236my\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236mm - Manages packages with the yum package manager\e[m\e[;m                                                                                                \e[2B\r\e[4C"
+  - delay: 42
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[4C"
+  - delay: 184
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1myum\e[m\r\e[5C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[2A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108my\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108mm\e[m\e[;m_repository - Add or remove YUM repositories\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236my\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mm\e[m\e[;1;38;5;254;48;5;236m - Manages packages with the yum package manager\e[m\e[2B\r\e[5C"
+  - delay: 15
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 58
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1myum\e[m\e[?1049l\e[?1000l"
+  - delay: 9
+    content: "https://docs.ansible.com/ansible/latest/modules/yum_module.html#yum-module\r\n"
+  - delay: 71
+    content: "\e]0;memo@matebook:~/src/doc-fzf\e\\\e]7;file://matebook/home/memo/src/doc-fzf\e\\\e]0;memo@matebook: ~/src/doc-fzf\a\e[01;32mmemo@matebook\e[00m:\e[01;34m~/src/doc-fzf\e[00m$ "
+  - delay: 1306
+    content: doc-fzf ansible
+  - delay: 384
+    content: ' '
+  - delay: 164
+    content: '-'
+  - delay: 152
+    content: q
+  - delay: 293
+    content: ' '
+  - delay: 622
+    content: 'y'
+  - delay: 112
+    content: u
+  - delay: 188
+    content: m
+  - delay: 527
+    content: "\r\n"
+  - delay: 675
+    content: "\e[?1049h\e[?1000h\e[17A\e[G\e[K\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1myum\e[m\r\e[5C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/0\e[m\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/496\e[m\e[1B\r\e[5C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/496\e[m\e[1B\r\e[5C\r\e[5C"
+  - delay: 11
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/2832\e[m\e[1B\r\e[5C"
+  - delay: 30
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[2A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108my\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108mm\e[m\e[;m_repository - Add or remove YUM repositories\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236my\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mm\e[m\e[;1;38;5;254;48;5;236m - Manages packages with the yum package manager\e[m\e[2B\r\e[5C"
+  - delay: 140
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m2/2832\e[m\e[1B\r\e[5C"
+  - delay: 84
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1myum\e[m\e[?1049l\e[?1000l"
+  - delay: 8
+    content: "https://docs.ansible.com/ansible/latest/modules/yum_module.html#yum-module\r\n"
+  - delay: 77
+    content: "\e]0;memo@matebook:~/src/doc-fzf\e\\\e]7;file://matebook/home/memo/src/doc-fzf\e\\\e]0;memo@matebook: ~/src/doc-fzf\a\e[01;32mmemo@matebook\e[00m:\e[01;34m~/src/doc-fzf\e[00m$ "
+  - delay: 500
+    content: doc-fzf ansible -q yum
+  - delay: 663
+    content: "\b\e[K"
+  - delay: 660
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 217
+    content: "\b\e[K"
+  - delay: 164
+    content: "\b\e[K"
+  - delay: 162
+    content: "\b\e[K"
+  - delay: 167
+    content: "\b\e[K"
+  - delay: 161
+    content: "\b\e[K"
+  - delay: 580
+    content: p
+  - delay: 324
+    content: 'y'
+  - delay: 193
+    content: t
+  - delay: 182
+    content: h
+  - delay: 177
+    content: o
+  - delay: 203
+    content: 'n'
+  - delay: 452
+    content: "\r\n"
+  - delay: 459
+    content: "\e[?1049h\e[?1000h\e[17A\e[G\e[K\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1m\e[m\r\e[2C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m0/0\e[m\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m0/369\e[m\e[1B\r\e[2C\e[17A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mbdb - Debugger framework.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mbase64 - RFC 3548: Base16, Base32, Base64 Data Encodings;\\nBase85 and Ascii85\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maudioop - Manipulate raw audio data.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;matexit - Register and execute cleanup functions.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;masyncore - A base class for developing asynchronous socket handling\\nservices.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;masyncio - Asynchronous I/O.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;masynchat - Support for asynchronous command/response protocols.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mast - Abstract Syntax Tree classes and manipulation.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;marray - Space efficient arrays of uniformly typed numeric values.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;margparse - Command-line option and argument parsing library.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;maifc - Read and write audio files in AIFF or AIFC format.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mabc - Abstract base classes according to PEP 3119.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m_thread - Low-level threading API.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m_dummy_thread - Drop-in replacement for the _thread module.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m__main__ - The environment where the top-level script is run.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m__future__ - Future statement definitions\e[m\e[1B\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C\r\e[2C"
+  - delay: 10
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 170
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m369/369\e[m\e[1B\r\e[2C"
+  - delay: 72
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mj\e[m\r\e[3C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m23/369\e[m\e[16A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mpstats - Statistics ob\e[m\e[;38;5;108mj\e[m\e[;mect for use with the profiler.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mpickle - Convert Python ob\e[m\e[;38;5;108mj\e[m\e[;mects to streams of bytes and back.\e[m\e[;m                \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mpathlib - Ob\e[m\e[;38;5;108mj\e[m\e[;mect-oriented filesystem paths\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mmultiprocessing.sharedctypes - Allocate ctypes ob\e[m\e[;38;5;108mj\e[m\e[;mects from shared memory.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mmultiprocessing.managers - Share data between process with shared ob\e[m\e[;38;5;108mj\e[m\e[;mects.\e[m\e[;m    \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mmarshal - Convert Python ob\e[m\e[;38;5;108mj\e[m\e[;mects to streams of bytes and back (with different\\nconstraints).\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;mson.tool - A command line to validate and pretty-print JSON.\e[m\e[;m  \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;mson - \e[m\e[;m                                             \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;mson - Encode and decode the JSON format.\e[m\e[;m                        \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;minspect - Extract information and source code from live ob\e[m\e[;38;5;108mj\e[m\e[;mects.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mhttp.cookie\e[m\e[;38;5;108mj\e[m\e[;mar - Classes for automatic handling of HTTP cookies.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mgzip - Interfaces for gzip compression and decompression using file ob\e[m\e[;38;5;108mj\e[m\e[;mects.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;mfunctools - Higher-order functions and operations on callable ob\e[m\e[;38;5;108mj\e[m\e[;mects.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;memail.parser - Parse flat text email messages to produce a message ob\e[m\e[;38;5;108mj\e[m\e[;mect structure.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;memail.iterators - Iterate over a  message ob\e[m\e[;38;5;108mj\e[m\e[;mect tree.\e[m\e[;m       \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236mdifflib - Helpers for computing differences between ob\e[m\e[;1;38;5;151;48;5;236mj\e[m\e[;1;38;5;254;48;5;236mects.\e[m\e[2B\r\e[3C"
+  - delay: 122
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjs\e[m\r\e[4C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[16A\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mon.tool - A command line to validate and pretty-print JSON.\e[m\e[;m                       \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mon - \e[m\e[;m                                               \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mj\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236mon - Encode and decode the JSON format.\e[m\e[;m                   \e[2B\r\e[4C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[4C"
+  - delay: 88
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjso\e[m\r\e[5C\e[4A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;mn.tool - A command line to validate and pretty-print JSON.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;mn - \e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mj\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mo\e[m\e[;1;38;5;254;48;5;236mn - Encode and decode the JSON format.\e[m\e[1B\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[5C"
+  - delay: 111
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[5C"
+  - delay: 60
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjson\e[m\r\e[6C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[3A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;m\e[m\e[;38;5;108mn\e[m\e[;m.tool - A command line to validate and pretty-print JSON.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;m\e[m\e[;38;5;108mn\e[m\e[;m - \e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mj\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mo\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mn\e[m\e[;1;38;5;254;48;5;236m - Encode and decode the JSON format.\e[m\e[2B\r\e[6C"
+  - delay: 140
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 78
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjson\e[m\e[?1049l\e[?1000l"
+  - delay: 7
+    content: "https://docs.python.org/3/library/json.html#module-json\r\n"
+  - delay: 64
+    content: "\e]0;memo@matebook:~/src/doc-fzf\e\\\e]7;file://matebook/home/memo/src/doc-fzf\e\\\e]0;memo@matebook: ~/src/doc-fzf\a\e[01;32mmemo@matebook\e[00m:\e[01;34m~/src/doc-fzf\e[00m$ "
+  - delay: 1050
+    content: doc-fzf python
+  - delay: 812
+    content: ' '
+  - delay: 186
+    content: '-'
+  - delay: 154
+    content: q
+  - delay: 198
+    content: ' '
+  - delay: 174
+    content: j
+  - delay: 130
+    content: s
+  - delay: 125
+    content: o
+  - delay: 188
+    content: 'n'
+  - delay: 516
+    content: "\r\n"
+  - delay: 466
+    content: "\e[?1049h\e[?1000h\e[17A\e[G\e[K\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\e[1B\r\e[;m                                                                                                                                                                      \r\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjson\e[m\r\e[6C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/0\e[m\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m0/369\e[m\e[1B\r\e[6C\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[3A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;m\e[m\e[;38;5;108mn\e[m\e[;m.tool - A command line to validate and pretty-print JSON.\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m\e[m\e[;38;5;108mj\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mo\e[m\e[;m\e[m\e[;38;5;108mn\e[m\e[;m - \e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mj\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mo\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mn\e[m\e[;1;38;5;254;48;5;236m - Encode and decode the JSON format.\e[m\e[2B\r\e[6C\r\e[6C"
+  - delay: 180
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m/\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 201
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m-\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m\\\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 200
+    content: "\e[1A\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;148m|\e[m\r\e[2C\e[;38;5;144m3/369\e[m\e[1B\r\e[6C"
+  - delay: 66
+    content: "\r\e[;m                                                                                                                                                                      \r\e[;1;38;5;110m> \e[m\e[;1mjson\e[m\e[?1049l\e[?1000l"
+  - delay: 7
+    content: "https://docs.python.org/3/library/json.html#module-json\r\n"
+  - delay: 64
+    content: "\e]0;memo@matebook:~/src/doc-fzf\e\\\e]7;file://matebook/home/memo/src/doc-fzf\e\\\e]0;memo@matebook: ~/src/doc-fzf\a\e[01;32mmemo@matebook\e[00m:\e[01;34m~/src/doc-fzf\e[00m$ "
+  - delay: 1992
+    content: "logout\r\n"

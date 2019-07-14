@@ -27,7 +27,7 @@ def main():
     elif args.module_name.lower() == "python":
         from doc_fzf.modules.python import Scrapper
     else:
-        print("Module not yet supported")
+        print("Dynamic modules not yet supported")
         sys.exit(2)
 
     dynamic_fzf = Scrapper()
@@ -57,9 +57,8 @@ def main():
         if url == d:
             try:
                 # Open URL in a new tab
-                did_open = webbrowser.open(u, new=2)
-                if not did_open:
-                    print(u)
+                webbrowser.open(u, new=2)
+                print(u)
             except Exception as error:
                 # If webbrowser cannot open the URL just print it.
                 print(u)
