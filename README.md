@@ -34,13 +34,13 @@ optional arguments:
 
 ## Extending Doc-FZF
 
-`doc-fzf` is a modular application, it can load modules at runtime that scrap websites in any way you like.
+`doc-fzf` is a modular application. It can load modules at runtime that scrap websites in any way you like.
 
 Any module should always contain:
 
 * class name must always be `Screapper(FZFDoc)`
 * `self.documentation_url` attribute
-* `def get_documentation(self):` function that will return a tuple ("url", "description")
+* `def get_documentation(self):` function that must always return a tuple ("url", "description")
 
 ```python
 from doc_fzf.pyfzf import FZFDoc
@@ -55,11 +55,12 @@ class Scrapper(FZFDoc):
     def get_documentation(self):
         """ Return a tuple of (url, description)
         """
-        Doc = namedtuple('Doc', ['url', 'description'])
-        example_doc = [Doc("url", "description")]
-        for doc in example_doc:
+        docs = get_online_documentation()
+        for doc in docs:
             yield (doc.url, doc.description)
 ```
+
+Here is the [ansible documentation example](https://gitlab.com/memogarcia/doc-fzf/blob/master/doc_fzf/modules/ansible.py)
 
 ## Road Map
 
