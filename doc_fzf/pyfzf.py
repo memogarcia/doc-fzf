@@ -37,5 +37,4 @@ class FZFDoc:
         This function allows you to scrap your documentation website in any way you like,
         but always returning a tuple of (url, description)
         """
-        raise NotImplementedError(
-            "get_documentation() not implemented for this module")
+        raise NotImplementedError("get_documentation() not implemented for this module")
