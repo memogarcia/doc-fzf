@@ -71,5 +71,6 @@ Here is the [ansible documentation example](https://gitlab.com/memogarcia/doc-fz
 
 ## References
 
+* [Doc-FZF: Modular CLI Documentation Fuzzy Finder](https://memogarcia.mx/posts/doc-fzf)
 * [fzf, A command-line fuzzy finder](https://github.com/junegunn/fzf)
 * [iterfzf, Pythonic interface to fzf, a CLI fuzzy finder](https://github.com/dahlia/iterfzf)

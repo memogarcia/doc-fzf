@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import inspect
 import os
 import re
 import sys
