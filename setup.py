@@ -16,7 +16,7 @@ install_requires = [
 
 setup(
     name = "doc-fzf",
-    version = "0.0.5",
+    version = "0.0.6",
     author = "Guillermo Garcia",
     author_email = "memogarcia@protonmail.com",
     description = "Fuzzy Search documentation from the CLI",

@@ -1,6 +1,6 @@
 # Doc-FZF: Modular CLI Documentation Fuzzy Finder
 
-Fuzzy Search documentation from the CLI
+Fuzzy Search documentation from the CLI and open them in the browser.
 
 See it in action here [https://terminalizer.com/view/2c3935cf1418](https://terminalizer.com/view/2c3935cf1418)
 
