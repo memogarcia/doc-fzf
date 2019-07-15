@@ -67,7 +67,7 @@ Here is the [ansible documentation example](https://gitlab.com/memogarcia/doc-fz
 * [x] Module definition
 * [x] FZFDoc base class
 * [x] File system cache layer
-* [ ] Load dynamic modules
+* [ ] Load modules at runtime
 
 ## References
 
