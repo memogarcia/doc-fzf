@@ -25,6 +25,8 @@ def main():
         from doc_fzf.modules.ansible import Scrapper
     elif args.module_name.lower() == "python":
         from doc_fzf.modules.python import Scrapper
+    elif args.module_name.lower() == "terraform":
+        from doc_fzf.modules.terraform import Scrapper
     else:
         print("Dynamic modules not yet supported")
         sys.exit(2)
