@@ -38,7 +38,7 @@ optional arguments:
 
 Any module should always contain:
 
-* class name must always be `Screapper(FZFDoc)`
+* class name must always be `Scrapper(FZFDoc)`
 * `self.documentation_url` attribute
 * `def get_documentation(self):` function that must always return a tuple ("url", "description")
 
