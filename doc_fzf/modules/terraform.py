@@ -28,7 +28,6 @@ class Scrapper(FZFDoc):
         """
         soup = BeautifulSoup(self.load_html(), "html.parser")
         for l in soup.select("ul.nav.docs-sidenav > li > ul > li"):
-            print(l)
             for li in l.findAll('a'):
                 href = li.get('href')
                 suffix = ''
